@@ -1,0 +1,130 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+  }
+  
+
+  
+  .nav-link {
+    color: #333;
+  }
+  
+  .nav-link:hover {
+    color: #007bff;
+  }
+  /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #99b2c6;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+  }
+
+  /* Thank You Section */
+.thank-you-section {
+    height: 100vh;
+    background-image: url("./../IMAGES/bgimg.JPEG"); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .thank-you-box {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 30px;
+    text-align: center;
+    width: 400px; /* Box width */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+  }
+  
+  .thank-you-box h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .thank-you-box p {
+    font-size: 16px;
+    color: #555;
+  }
+
+  /* Footer Styling */
+.footer {
+    background-color: #88A4B9;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-left p {
+    font-size: 1rem;
+  }
+  
+  .footer-right {
+    text-align: right;
+  }
+  
+  .footer-right p {
+    font-size: 1rem;
+  }
+  
+  .footer-right a {
+    color: #3b62ff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-right a:hover {
+    color: #fff;
+  }
+  
+  /* Responsive Design for Footer */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-right {
+      margin-top: 10px;
+    }
+  }
+  
